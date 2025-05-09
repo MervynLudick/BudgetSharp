@@ -1,0 +1,52 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+*.log
+*.psess
+.vs/
+TestResults/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+
+# Packages
+*.nupkg
+packages/
+*.snupkg
+
+# Publish outputs
+publish/
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+nuget.config
+NuGet.Config
+packages.lock.json
+
+# Docker
+*.tar
+*.tar.gz
+Dockerfile.amd64
+Dockerfile.arm32
+Dockerfile.arm64
+docker-compose.override.yml
+
+# Environment variables
+.env
+
+# Miscellaneous
+*.DS_Store
+Thumbs.db
